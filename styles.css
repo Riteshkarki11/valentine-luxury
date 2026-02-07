@@ -1,0 +1,63 @@
+body{
+    margin:0;
+    font-family: Arial;
+    background:#FFF5F7;
+    overflow:hidden;
+}
+
+canvas{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+}
+
+.card{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    text-align:center;
+    width:500px;
+}
+
+h1{
+    color:#FF4D6D;
+}
+
+.subtitle{
+    color:#5A3E46;
+}
+
+button{
+    padding:15px 25px;
+    font-size:20px;
+    border:none;
+    border-radius:30px;
+    margin:10px;
+    cursor:pointer;
+}
+
+#yesBtn{
+    background:#FF8FA3;
+    color:white;
+}
+
+#noBtn{
+    background:#FFC2D1;
+}
+
+.hidden{
+    display:none;
+}
+
+#success{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+}
